@@ -1,10 +1,10 @@
 {
-  "name": "rzky-multidevice",
+  "name": "badru-multidevice",
   "version": "4.0.0",
   "main": "index.js",
   "depecrated": false,
   "license": "MIT",
-  "author": "RizkyFadilah",
+  "author": "mhmdbadru23",
   "scripts": {
     "start": "node .",
     "format": "prettier --write '**/*.{md,js,json}'"
