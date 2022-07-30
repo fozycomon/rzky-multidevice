@@ -157,7 +157,7 @@ module.exports = handler = async (m, conn, map) => {
 								" multi-device whatsapp bot using JavaScript and made by " +
 								config.ownername,
 							thumbnail: await conn.getBuffer(config.thumb),
-							sourceUrl: "https://github.com/Rizky878/rzky-multidevice/",
+							sourceUrl: "wa.me/6283832629797",
 						},
 				  })
 				: "";
@@ -190,7 +190,7 @@ module.exports = handler = async (m, conn, map) => {
 				});
 				options.userJid = conn.user.id;
 				const fromContent = await Baileys.generateWAMessageFromContent(jid, contentMsg, options);
-				fromContent.key.id = "RZKY" + require("crypto").randomBytes(13).toString("hex").toUpperCase();
+				fromContent.key.id = "BADRU" + require("crypto").randomBytes(13).toString("hex").toUpperCase();
 				await conn.relayMessage(jid, fromContent.message, {
 					messageId: fromContent.key.id,
 					additionalAttributes,
